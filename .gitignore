@@ -1,0 +1,26 @@
+
+.DS_Store
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables and databases
+.env
+*.db
+*.sqlite
+*.sqlite3
+
+# Model weights
+*.pt
+
+# Dataset files
+data/*
+!data/.gitkeep
+
+# Generated output videos
+output/*
+!output/.gitkeep
+*.mp4
